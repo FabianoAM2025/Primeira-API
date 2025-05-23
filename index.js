@@ -7,7 +7,7 @@ const server = express();
 server.use(express.json());
 
 server.get("/", (request, response) => {
- response.json({"dados":"Mil pessoas foram ontem"});
+ response.json({"dados":"Mil pessoas ,foram ontem ,na Palestra ,sobre IA"});
 })
 
 server.get("/senai", (request, response) => {
